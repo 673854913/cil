@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --config webpack.dev.conf.js",
-    "start": "webpack serve --open Chrome.exe"
+    "start": "webpack-dev-server --config webpack.dev.conf.js --color --progress"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,9 @@
   "homepage": "https://github.com/673854913/cil#readme",
   "devDependencies": {
     "html-webpack-plugin": "^4.5.1",
-    "webpack": "^5.17.0",
-    "webpack-cli": "^4.4.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {}
 }

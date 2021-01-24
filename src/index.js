@@ -1,1 +1,1 @@
-document.getElementById('app').innerHTML = "Webpack works1";
+document.getElementById('app').innerHTML = "Webpack works2";

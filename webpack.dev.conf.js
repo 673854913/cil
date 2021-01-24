@@ -26,8 +26,6 @@ module.exports = {
         contentBase: path.resolve(__dirname, 'dist'),
         historyApiFallback: true,
         host: '0.0.0.0',
-        target: 'web',
-        hot:true,
         overlay:true,
     }
 }
