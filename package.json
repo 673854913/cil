@@ -1,0 +1,29 @@
+{
+  "name": "cil",
+  "version": "1.0.0",
+  "description": "基于webpack4的基础脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.dev.conf.js",
+    "start": "webpack serve --open Chrome.exe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/673854913/cil.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/673854913/cil/issues"
+  },
+  "homepage": "https://github.com/673854913/cil#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.1",
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {}
+}
